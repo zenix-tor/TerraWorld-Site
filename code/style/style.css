@@ -1,0 +1,50 @@
+body {
+  background-image: url('../imagines/ie.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  /* background: rgb(64,62,62);*/
+  /*background: linear-gradient(90deg, rgba(64,62,62,1) 0%, rgba(92,95,98,1) 50%, rgba(65,64,64,1) 100%); */
+  background-image: url('../imagines/header.jpg');
+  background-size: cover;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+section {
+  background-image: url('../imagines/ip.jpg');
+  background-size: cover;
+  padding: 20px;
+  margin: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+  transform: scale(1);
+}
+
+
+footer {
+  background: rgb(54,54,54);
+  background: linear-gradient(90deg, rgba(54,54,54,1) 0%, rgba(98,92,92,1) 50%, rgba(38,38,38,1) 100%); 
+  padding: 5px;
+  text-align: center;
+}
